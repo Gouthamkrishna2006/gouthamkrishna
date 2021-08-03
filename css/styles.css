@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #531D40;
+  overflow-x: hidden !important;
 }
 
 h1 {
