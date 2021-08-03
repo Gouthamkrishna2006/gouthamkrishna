@@ -310,8 +310,50 @@ nav li a:hover {
 
 @media (max-width: 1000px) {
 
-      div {
-            background: yellow;
-       }
+    #img1,
+    #img3,
+    #img4 {
+      display: none;
+    }
+    .top-cloud {
+        position: absolute;
+        right: 150px;
+        margin-top: 100px;
+        width: 200px;
+        bottom: 300px;
+    }
 
+    .balloon-image {
+        position: absolute;
+        left: calc(50% - 70.5px);
+        bottom: 200px;
+        animation-name: balloon-animation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes balloon-animation {
+        0% {
+            bottom: 200px;
+        }
+        50% {
+            bottom: 210px;
+        }
+        100% {
+            bottom: 200px;
+        }
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        left: 150px;
+        bottom: 200px;
+        width: 150px;
+    }
+
+    .ground {
+        width: 700px;
+        max-width: 100%;
+        margin-bottom: -4px;
+    }
 }
