@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #531D40;
-  overflow-x: hidden !important;
+  overflow-x:hidden;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   color: #531D40;
   padding-bottom: 10px;
@@ -78,8 +78,9 @@ nav li a:hover {
 .balloon-image {
     position: absolute;
     left: calc(50% - 70.5px);
-    bottom: 12.5rem;
-    animation: balloon-animation 2s infinite;
+    bottom: 150px;
+    width: 10%  ;
+    animation: balloon-animation 3s infinite;
 }
 
 @keyframes balloon-animation {
@@ -95,7 +96,7 @@ nav li a:hover {
 }
 
 .ground {
-    width: 700px;
+    width: 50%;
     max-width: 100%;
     margin-bottom: -4px;
 }
@@ -138,7 +139,7 @@ nav li a:hover {
   right: 150px;
   bottom: 500px;
   margin-top: 100px;
-  width: 200px;
+  width: 13%;
   animation: cloud1-animation 60s infinite;
 }
 
@@ -161,7 +162,7 @@ nav li a:hover {
   position: absolute;
   left: 150px;
   bottom: 300px;
-  width: 150px;
+  width: 10%;
   animation: cloud2-animation 60s infinite;
 }
 
@@ -185,7 +186,7 @@ nav li a:hover {
   right: 150px;
   bottom: 650px;
   margin-top: 100px;
-  width: 200px;
+  width: 12%;
   animation: cloud3-animation 60s infinite;
 }
 
@@ -203,7 +204,7 @@ nav li a:hover {
   right: 150px;
   bottom: 250px;
   margin-top: 100px;
-  width: 150px;
+  width: 9%;
   animation: cloud4-animation 60s infinite;
 }
 
@@ -221,7 +222,7 @@ nav li a:hover {
   left: 0;
   bottom: 80px;
   animation: sun-animation 180s infinite;
-  width: 100px;
+  width: 7%;
 }
 
 @keyframes sun-animation {
