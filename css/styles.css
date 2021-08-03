@@ -78,7 +78,7 @@ nav li a:hover {
 .balloon-image {
     position: absolute;
     left: calc(50% - 70.5px);
-    bottom: 200px;
+    bottom: 12.5rem;
     animation: balloon-animation 2s infinite;
 }
 
