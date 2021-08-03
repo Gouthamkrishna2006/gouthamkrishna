@@ -319,14 +319,14 @@ nav li a:hover {
         position: absolute;
         right: 150px;
         margin-top: 100px;
-        width: 200px;
+        width: 100px;
         bottom: 300px;
     }
 
     .balloon-image {
         position: absolute;
         left: calc(50% - 70.5px);
-        bottom: 100px;
+        bottom: 110px;
         width: 100px;
         animation-name: balloon-animation;
         animation-duration: 2s;
@@ -335,13 +335,13 @@ nav li a:hover {
 
     @keyframes balloon-animation {
         0% {
-            bottom: 170x;
+            bottom: 110x;
         }
         50% {
-            bottom: 180px;
+            bottom: 120px;
         }
         100% {
-            bottom: 170px;
+            bottom: 110px;
         }
     }
 
@@ -349,7 +349,7 @@ nav li a:hover {
         position: absolute;
         left: 150px;
         bottom: 200px;
-        width: 150px;
+        width: 75px;
     }
 
     .ground {
