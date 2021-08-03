@@ -335,7 +335,7 @@ nav li a:hover {
 
     @keyframes balloon-animation {
         0% {
-            bottom: 110x;
+            bottom: 110px;
         }
         50% {
             bottom: 120px;
