@@ -79,7 +79,6 @@ nav li a:hover {
     position: absolute;
     left: calc(50% - 70.5px);
     bottom: 150px;
-    width: 10%  ;
     animation: balloon-animation 3s infinite;
 }
 
@@ -96,12 +95,14 @@ nav li a:hover {
 }
 
 .ground {
-    width: 800px;
+    width: 700px;
     max-width: 100%;
     margin-bottom: -4px;
 }
 
 .description {
+
+
   margin: 0 auto;
   width: 40%
 }
@@ -139,7 +140,7 @@ nav li a:hover {
   right: 150px;
   bottom: 500px;
   margin-top: 100px;
-  width: 13%;
+  width: 200px;
   animation: cloud1-animation 60s infinite;
 }
 
@@ -162,7 +163,7 @@ nav li a:hover {
   position: absolute;
   left: 150px;
   bottom: 300px;
-  width: 10%;
+  width: 150px;
   animation: cloud2-animation 60s infinite;
 }
 
@@ -186,7 +187,7 @@ nav li a:hover {
   right: 150px;
   bottom: 650px;
   margin-top: 100px;
-  width: 12%;
+  width: 175px;
   animation: cloud3-animation 60s infinite;
 }
 
@@ -204,7 +205,7 @@ nav li a:hover {
   right: 150px;
   bottom: 250px;
   margin-top: 100px;
-  width: 9%;
+  width: 100px;
   animation: cloud4-animation 60s infinite;
 }
 
@@ -220,9 +221,9 @@ nav li a:hover {
 .sun {
   position: absolute;
   left: 0;
-  bottom: 80px;
+  bottom: 80%;
   animation: sun-animation 180s infinite;
-  width: 7%;
+  width: 100px;
 }
 
 @keyframes sun-animation {
@@ -305,4 +306,12 @@ nav li a:hover {
 .btn:active {
     position: relative;
     top: 1px;
+}
+
+@media (max-width: 1000px) {
+
+      div {
+            background: yellow;
+       }
+
 }
