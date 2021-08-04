@@ -333,7 +333,7 @@ nav li a:hover {
         position: absolute;
         left: calc(50% - 70.5px);
         bottom: 110px;
-        width: 250px;
+        width: 200px;
         animation-name: balloon-animation;
         animation-duration: 2s;
         animation-iteration-count: infinite;
