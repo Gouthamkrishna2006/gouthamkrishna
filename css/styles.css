@@ -7,9 +7,8 @@ body {
 }
 
 h1 {
-  position: absolute;
+  position: relative;
   z-index: 999;
-  margin: 50px auto;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;;
   font-family: 'Sacramento', cursive;
@@ -68,6 +67,7 @@ nav li {
 }
 
 nav li a {
+    position:relative;
     display: block;
     text-align: center;
     padding: 14px 5px;
@@ -111,7 +111,7 @@ nav li a:hover {
 }
 
 .programmer {
-  position: absolute;
+  position: relative;
   z-index: 999;
   font-weight: normal;
   margin-bottom: 250px;
@@ -331,7 +331,7 @@ nav li a:hover {
 
     .balloon-image {
         position: absolute;
-        left: calc(50% - 70.5px);
+        left: 50%;
         bottom: 110px;
         width: 200px;
         animation-name: balloon-animation;
