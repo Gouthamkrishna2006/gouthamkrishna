@@ -8,6 +8,8 @@ body {
 
 h1 {
   position: absolute;
+  z-index: 999;
+  margin: 50px auto;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;;
   font-family: 'Sacramento', cursive;
@@ -109,6 +111,8 @@ nav li a:hover {
 }
 
 .programmer {
+  position: absolute;
+  z-index: 999;
   font-weight: normal;
   margin-bottom: 250px;
 }
