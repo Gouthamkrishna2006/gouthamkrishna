@@ -337,7 +337,24 @@ nav li a {
         margin-top: 100px;
         width: 125px;
         bottom: 300px;
+        animation: cloud1m-animation 60s infinite;
     }
+
+    @keyframes cloud1m-animation {
+        0% {
+            right: 10%;
+        }
+        25% {
+            right: -30%;
+        }
+        25.00000000000001% {
+            right: 100%;
+        }
+        100% {
+            right: 10%;
+        }
+    }
+
 
     .balloon-image {
         position: absolute;
@@ -366,6 +383,22 @@ nav li a {
         left: 150px;
         bottom: 200px;
         width: 100px;
+        animation: cloud2m-animation 60s infinite;
+    }
+
+    @keyframes cloud2m-animation {
+        0% {
+            left: 10%;
+        }
+        60% {
+            left: 105%;
+        }
+        60.0000000000001% {
+          left: -30%;
+        }
+        100% {
+            left: 10%;
+        }
     }
 
     .ground {
