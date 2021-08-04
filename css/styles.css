@@ -68,6 +68,7 @@ nav li {
 
 nav li a {
     position:relative;
+    z-index: 999;
     display: block;
     text-align: center;
     padding: 14px 5px;
