@@ -116,6 +116,7 @@ nav li a:hover {
   position: relative;
   background-color: #FFE3DC;
   padding-top: 50px;
+  overflow-x:hidden;
 }
 
 .middle-container {
@@ -319,7 +320,7 @@ nav li a:hover {
         position: absolute;
         right: 150px;
         margin-top: 100px;
-        width: 100px;
+        width: 125px;
         bottom: 300px;
     }
 
@@ -327,7 +328,7 @@ nav li a:hover {
         position: absolute;
         left: calc(50% - 70.5px);
         bottom: 110px;
-        width: 100px;
+        width: 150px;
         animation-name: balloon-animation;
         animation-duration: 2s;
         animation-iteration-count: infinite;
@@ -349,7 +350,7 @@ nav li a:hover {
         position: absolute;
         left: 150px;
         bottom: 200px;
-        width: 75px;
+        width: 100px;
     }
 
     .ground {
