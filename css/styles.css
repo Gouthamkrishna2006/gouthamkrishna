@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -88,13 +92,13 @@ nav li a:hover {
 
 @keyframes balloon-animation {
     0% {
-        bottom: 190px;
+        bottom: 200px;
     }
     50% {
         bottom: 210px;
     }
     100% {
-        bottom: 190px;
+        bottom: 200px;
     }
 }
 
@@ -136,6 +140,10 @@ nav li a:hover {
 
 .pro {
   text-decoration: underline;
+}
+
+.stacktop {
+  z-index: 100;
 }
 
 .top-cloud {
@@ -225,7 +233,7 @@ nav li a:hover {
   position: absolute;
   left: 0;
   bottom: 80%;
-  animation: sun-animation 240s infinite;
+  animation: sun-animation 180s infinite;
   width: 100px;
 }
 
