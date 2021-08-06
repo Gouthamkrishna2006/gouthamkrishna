@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #531D40;
 }
 
 p {
@@ -80,7 +80,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #13103c;
+    color: #531D40;
 }
 
 .balloon-image {
@@ -100,6 +100,10 @@ nav li a:hover {
     100% {
         bottom: 200px;
     }
+}
+
+.footer-link:hover {
+  color: #531D40;
 }
 
 .ground {
@@ -312,6 +316,7 @@ nav li a:hover {
 .btn:hover {
     background: linear-gradient(to bottom, #240d1c 5%, #531d40 100%);
     background-color: #240d1c;
+    color: #EAF6F6;
 }
 
 .btn:active {
