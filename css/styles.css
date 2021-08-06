@@ -102,6 +102,10 @@ nav li a:hover {
     }
 }
 
+.footer-link {
+  margin: 1.5%;
+}
+
 .footer-link:hover {
   color: #531D40;
 }
