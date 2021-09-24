@@ -344,19 +344,19 @@ nav li a:hover {
 
     nav li a {
       position: static;
+      display:inline;
     }
-
-    nav li {
-      float: center;
-    }
-
+    
     a {
       margin: 10px 10px;
     }
-
+      
     nav li {
       float: none;
+      list-style:none;
+      display:inline;
     }
+    
 
     .top-cloud {
         position: absolute;
