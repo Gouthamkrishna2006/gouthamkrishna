@@ -342,9 +342,17 @@ nav li a:hover {
       position: static;
     }
 
-nav li a {
-  position: static;
-}
+    nav li a {
+      position: static;
+      padding: 5px 5px;
+    }
+
+    a {
+      color: rgb(150, 29, 108);
+      margin: 10px 20px;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+    }
 
     .top-cloud {
         position: absolute;
