@@ -354,11 +354,6 @@ nav li a:hover {
       margin: 10px 10px;
     }
 
-    nav ul {
-      display: table;
-      margin: 0 auto;
-    }
-
     nav li {
       float: none;
     }
