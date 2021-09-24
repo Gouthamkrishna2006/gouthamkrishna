@@ -283,6 +283,11 @@ nav li a:hover {
   margin: 40px auto 60px;
 }
 
+.project-header {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .copyright {
   color: rgb(150, 29, 108);
   font-size: 0.75rem;
