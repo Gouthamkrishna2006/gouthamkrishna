@@ -344,17 +344,12 @@ nav li a:hover {
 
     nav li a {
       position: static;
-      display:inline;
     }
     
     a {
       margin: 10px 10px;
     }
-      
-    nav li {
-      float: none;
-      display:inline;
-    }
+
     
 
     .top-cloud {
