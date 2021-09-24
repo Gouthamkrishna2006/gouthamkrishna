@@ -346,12 +346,6 @@ nav li a:hover {
       position: static;
     }
     
-    a {
-      margin: 10px 20px;
-    }
-
-    
-
     .top-cloud {
         position: absolute;
         right: 150px;
