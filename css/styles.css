@@ -346,8 +346,21 @@ nav li a:hover {
       position: static;
     }
 
+    nav li {
+      float: center;
+    }
+
     a {
       margin: 10px 10px;
+    }
+
+    nav ul {
+      display: table;
+      margin: 0 auto;
+    }
+
+    nav li {
+      float: none;
     }
 
     .top-cloud {
